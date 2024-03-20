@@ -10,7 +10,7 @@
   font-weight: normal
 }
 body {
-  background: #fff
+  background: #eee
 }
 h1 {
   text-align: center;
@@ -33,10 +33,10 @@ h1 a:hover {
 }
 .slider {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   padding: 0 50px;
   margin: 25px auto 0;
-  height: 500px;
+  height: 580px;
   position: relative;
 }
 .slider ul, .slider ul li {
@@ -58,7 +58,7 @@ h1 a:hover {
   font-family: serif;
 }
 .slider ul li:first-of-type {
-  background-image: url("http://files.sudrf.ru/994/user/pressa_foto/15.03.20241.JPG")
+background-image: url("http://files.sudrf.ru/994/user/pressa_foto/15.03.20241.JPG")
 }
 .slider ul li:nth-of-type(2) {
   background-image: url("http://files.sudrf.ru/994/user/pressa_foto/08.02.2024-1.jpg")
