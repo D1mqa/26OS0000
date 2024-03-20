@@ -1,0 +1,129 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 'Gudea', sans-serif;
+  font-weight: normal
+}
+body {
+  background: #fff
+}
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 60px;
+  color: #333
+}
+h1 a {
+  font-size: 14px;
+  color: #aaa;
+  background: #fff;
+  border-radius: 5px;
+  padding: 2px 5px;
+  border: 1px solid #dcdcdc;
+  text-decoration: none
+}
+h1 a:hover {
+  color: #0fe0ba;
+  text-decoration: underline
+}
+.slider {
+  width: 100%;
+  max-width: 750px;
+  padding: 0 50px;
+  margin: 25px auto 0;
+  height: 350px;
+  position: relative;
+}
+.slider ul, .slider ul li {
+  width: 100%;
+  height: 100%
+}
+.slider ul {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px
+}
+.slider ul li {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-size: cover; /* semon #f98686 */
+  background-position: center;
+  color: #fff;
+  font-family: serif;
+}
+.slider ul li:first-of-type {
+  background-image: url("http://files.sudrf.ru/994/user/pressa_foto/15.03.20241.JPG")
+}
+.slider ul li:nth-of-type(2) {
+  background-image: url("http://files.sudrf.ru/994/user/pressa_foto/08.02.2024-1.jpg")
+}
+.slider ul li:nth-of-type(3) {
+  background-image: url("http://files.sudrf.ru/994/user/111AAA.JPG")
+}
+.slider ul li:nth-of-type(4) {
+  background-image: url("http://files.sudrf.ru/994/user/pressa_foto/kvalif_19_01_2024_2.jpg")
+}
+.slider ul li:last-of-type {
+  background-image: url("http://files.sudrf.ru/994/user/pressa_foto/15jan2024-2.png")
+}
+.slider .controll {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 44%;
+  border-bottom: 7px solid #c9a892;
+  border-left: 7px solid #c9a892;
+  cursor: pointer;
+  color: #333
+}
+.slider .controll:first-of-type {
+  transform: rotate(45deg);
+  left: 15px
+}
+.slider .controll:last-of-type {
+  transform: rotate(225deg);
+  right: 10px
+}
+.slider .controll:hover, .slider .controll.active {
+  border-color: #c9a892 /* rose */
+}
+.slider ol {
+  text-align: center;
+  padding-top: 5px
+}
+.slider ol li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.slider ol .fa {
+  font-size: 20px;
+  color: #c9a892;
+  cursor: pointer;
+  font-weight: normall
+}
+.slider ol li:hover .fa:before, .slider ol li.active .fa:before {
+  content: "\f111"
+}
+.slider ul li.active {
+  z-index: 999;
+  left: 0
+}
+@media(max-width: 590px) {
+  h1 {font-size: 45px}
+}
+@media(max-width: 350px) {
+  h1 {font-size: 25px}
+}
+
+.text__content {
+  position: top;
+  margin-top: 250px;
+  padding-top: 60px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}
