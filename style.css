@@ -46,7 +46,7 @@ h1 a:hover {
 .slider ul {
   position: relative;
   overflow: hidden;
-  border-radius: 15px
+  border-radius: 3px
 }
 .slider ul li {
   position: absolute;
